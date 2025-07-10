@@ -50,36 +50,54 @@ header {
     display: flex;
 }
 
-
-#imgt4 {
-    margin: 1vh;
-}
-
 #divtop5 {
     margin: 10vh;
 }
-#title2{
+
+#title2 {
     display: flex;
     justify-content: center;
 }
-#divtop3{
+
+#divtop3 {
     display: flex;
 }
-#img10{
+
+#img10 {
     margin: 1vh;
 }
+
 .cards {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.cards h2{
+
+.cards h2 {
     width: 90%;
     text-align: center;
     font-size: 30px;
 
 }
+
 .cards_item {
     width: 30%;
+}
+
+#divtop3 {
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
