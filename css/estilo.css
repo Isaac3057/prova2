@@ -5,7 +5,6 @@
 }
 
 header {
-    background-color: red;
     width: 100%;
     flex-direction: column;
 
@@ -17,6 +16,7 @@ header {
 }
 
 #title {
+    color: red;
     display: flex;
     justify-content: center;
 }
@@ -101,3 +101,4 @@ header {
     flex-direction: row;
     justify-content: space-around;
 }
+
